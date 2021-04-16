@@ -1,0 +1,61 @@
+.hero-section{
+    background-image: url(../images/goodtruckinplate.jpg);
+    padding: 100px;
+    border-top: 100px;
+    border-bottom: 100px;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.diner-info{
+    height: 600px;
+    background-color: white;
+    border-top: 10px solid white;
+    color: white;
+}
+
+.info-grid-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+}
+
+.grid-1{
+    background-image: url(../images/gtd.jpg);
+    padding: 100px;
+    height: 400px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.grid-2{
+    background-color: rgba(249, 246, 239, 0.8);
+    padding: 100px;
+    height: 400px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hours .heading , .phone .heading{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.phone a{
+    text-decoration: none;
+    color: black;
+}
+.phone a:hover{
+    text-decoration: none;
+    color: red;
+}
