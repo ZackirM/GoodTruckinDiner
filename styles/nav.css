@@ -1,6 +1,8 @@
 
 .navigation-wrapper{
     height: 100px;
+    position: fixed;
+    width: 100%;
     background-color: white;
     color: black;
     display: flex;

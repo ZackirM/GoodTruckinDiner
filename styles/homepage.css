@@ -3,7 +3,7 @@
     padding: 100px;
     border-top: 100px;
     border-bottom: 100px;
-    height: 400px;
+    height: 450px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -49,7 +49,7 @@
 .hours .heading , .phone .heading{
     display: flex;
     align-items: center;
-    gap: 40px;
+    text-align: center;
 }
 .phone a{
     text-decoration: none;
@@ -58,4 +58,12 @@
 .phone a:hover{
     text-decoration: none;
     color: red;
+}
+
+.hours h1{
+    margin-left: 20px;
+}
+
+.phone i{
+    padding-right: 20px;
 }
