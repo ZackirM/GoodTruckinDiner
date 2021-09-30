@@ -3,10 +3,10 @@
     padding: 100px;
     border-top: 100px;
     border-bottom: 100px;
-    height: 450px;
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
