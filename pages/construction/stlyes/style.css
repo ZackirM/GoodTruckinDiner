@@ -20,14 +20,36 @@ body, html {
     left: 16px;
   }
   
+  .topleft img:hover{
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+  }
   .bottomleft {
     position: absolute;
     bottom: 0;
     left: 16px;
+  }
+
+  .bottomleft  p {
+    font-size: 40px;
+    font-weight: 550;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    background-color: rgb(0, 0, 0, 0.7);
+  }
+
+  .bottomleft  a:link {
     text-decoration: none;
-    font-size: medium;
+    background-color: black;
+
   }
   
+  .bottomleft  p:hover {
+    border: 3px solid white;
+    background-color: none;
+  }
+
   .middle {
     position: absolute;
     top: 50%;
@@ -38,6 +60,11 @@ body, html {
   
   hr {
     margin: auto;
-    font-weight: 500;
+    font-weight: 900;
     width: 50%;
+  }
+
+  .middle, hr, .demo {
+    padding: 0px 10px 0px 10px;
+    background-color:rgb(0, 0, 0, 0.5);
   }
