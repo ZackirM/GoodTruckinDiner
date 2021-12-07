@@ -4,7 +4,7 @@ body, html {
   }
   
   .bgimg {
-    background-image: url('../images/dog.jpeg');
+    background-image: url('../images/dog.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -24,6 +24,8 @@ body, html {
     position: absolute;
     bottom: 0;
     left: 16px;
+    text-decoration: none;
+    font-size: medium;
   }
   
   .middle {
@@ -36,5 +38,6 @@ body, html {
   
   hr {
     margin: auto;
+    font-weight: 500;
     width: 50%;
   }
